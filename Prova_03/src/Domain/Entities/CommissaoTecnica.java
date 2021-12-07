@@ -17,4 +17,4 @@ public class CommissaoTecnica extends Membro{
     public void setFuncao(String funcao) {
         this.funcao = funcao;
     }
-}
+} 
