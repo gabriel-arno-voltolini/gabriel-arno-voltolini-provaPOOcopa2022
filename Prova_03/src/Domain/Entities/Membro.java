@@ -1,7 +1,8 @@
 package Domain.Entities;
 
 import java.time.LocalDate;
-import java.util.concurrent.locks.Condition;
+
+import Enumerators.Conditions;
 
 public abstract class Membro {
 	
@@ -19,7 +20,7 @@ public abstract class Membro {
 
 	public abstract char getGrauHidratacao();
 
-	public abstract void go(Condition c);
+	public abstract void go(Conditions c);
 
 	public double getTemperatura() {
 		return temperatura;
