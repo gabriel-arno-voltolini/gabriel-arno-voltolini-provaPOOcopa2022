@@ -2,11 +2,11 @@ package Domain.Entities;
 
 import java.time.LocalDate;
 
-public class CommissaoTecnica extends Membro{
+public class ComissaoTecnica extends Membro{
     
     private String funcao;
 
-    public CommissaoTecnica(String nome, String apelido, LocalDate dataNascimento) {
+    public ComissaoTecnica(String nome, String apelido, LocalDate dataNascimento) {
         super(nome, apelido, dataNascimento);
     }
 
