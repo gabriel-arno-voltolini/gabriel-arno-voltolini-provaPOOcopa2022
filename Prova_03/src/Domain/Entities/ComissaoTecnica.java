@@ -1,6 +1,7 @@
 package Domain.Entities;
 
 import java.time.LocalDate;
+import java.util.concurrent.locks.Condition;
 
 public class ComissaoTecnica extends Membro{
     
@@ -17,4 +18,16 @@ public class ComissaoTecnica extends Membro{
     public void setFuncao(String funcao) {
         this.funcao = funcao;
     }
+
+	@Override
+	public char getGrauHidratacao() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void go(Condition c) {
+		// TODO Auto-generated method stub
+		
+	}
 } 

@@ -17,13 +17,9 @@ public abstract class Membro {
 		this.setDataNascimento(dataNascimento);
 	}
 
-	public char getGrauHidratacao() {
-		return ' ';
-	}
+	public abstract char getGrauHidratacao();
 
-	public void go(Condition c) {
-
-	}
+	public abstract void go(Condition c);
 
 	public double getTemperatura() {
 		return temperatura;
