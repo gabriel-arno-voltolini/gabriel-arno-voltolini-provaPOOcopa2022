@@ -1,3 +1,5 @@
+//Gabriel Arno
+//Luan Garcia
 package Interfaces;
 
 import Enumerators.Conditions;

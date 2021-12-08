@@ -4,6 +4,8 @@ import java.time.LocalDate;
 
 import Enumerators.Conditions;
 
+//Gabriel Arno
+//Luan Garcia
 public abstract class Membro {
 	
 	private String nome;

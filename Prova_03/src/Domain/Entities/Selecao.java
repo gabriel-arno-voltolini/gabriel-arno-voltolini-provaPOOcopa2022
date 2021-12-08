@@ -1,3 +1,5 @@
+//Gabriel Arno
+//Luan Garcia
 package Domain.Entities;
 
 import java.util.ArrayList;
@@ -29,7 +31,7 @@ public class Selecao implements INationalTeam {
 
 	public void setPais(String pais) {
 		if (pais.isBlank() || pais.equals(null)) {
-			throw new IllegalArgumentException("Adicione o nome do país!");
+			throw new IllegalArgumentException("Adicione o nome do paï¿½s!");
 		} else {
 			this.pais = pais;
 		}
