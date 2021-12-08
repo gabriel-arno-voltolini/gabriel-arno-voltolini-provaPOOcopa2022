@@ -9,9 +9,10 @@ public class ComissaoTecnica extends Membro {
 
 	private String funcao;
 
-	public ComissaoTecnica(String nome, String apelido, LocalDate dataNascimento) {
+	public ComissaoTecnica(String nome, String apelido, LocalDate dataNascimento, String funcao) {
 		super(nome, apelido, dataNascimento);
-	}
+		this.setFuncao(funcao);	
+		}
 
 	public String getFuncao() {
 		return funcao;

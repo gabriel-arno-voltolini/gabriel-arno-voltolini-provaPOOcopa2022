@@ -45,16 +45,16 @@ public class Jogador extends Membro {
 		if (randomValue >= 5 && randomValue <= 7) {
 			temperatura += 0.1;
 			if (c.equals(Conditions.MATCH)) {
-				hidratacao -= hidratacao * 0.05;
+				hidratacao -= (hidratacao * 0.05);
 			} else if (c.equals(Conditions.TRAINING)) {
-				hidratacao -= hidratacao * 0.03;
+				hidratacao -= (hidratacao * 0.03);
 			}
 		} else if (randomValue >= 8 && randomValue <= 10) {
 			temperatura -= 0.1;
 			if (c.equals(Conditions.MATCH)) {
-				hidratacao += hidratacao * 0.03;
+				hidratacao += (hidratacao * 0.03);
 			} else if (c.equals(Conditions.TRAINING)) {
-				hidratacao += hidratacao * 0.02;
+				hidratacao += (hidratacao * 0.02);
 			}
 		}
 		this.setTemperatura(temperatura);
